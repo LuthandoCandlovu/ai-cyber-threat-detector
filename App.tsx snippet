@@ -1,0 +1,21 @@
+import React, { useEffect, useState } from 'react';
+import { getSuspiciousIPs } from './services/api';
+
+function App() {
+  const [ips, setIPs] = useState<string[]>([]);
+
+  useEffect(() => {
+    getSuspiciousIPs().then(setIPs);
+  }, []);
+
+  return (
+    <div>
+      <h1>Threat Dashboard</h1>
+      <ul>
+        {ips.map(ip => <li key={ip}>{ip}</li>)}
+      </ul>
+    </div>
+  );
+}
+
+export default App;

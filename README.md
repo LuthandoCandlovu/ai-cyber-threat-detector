@@ -57,30 +57,22 @@ This project leverages **Machine Learning, Anomaly Detection, and Behavioral Ana
 
 ## ⚙️ Installation
 
-```bash
+
 git clone https://github.com/your-username/ai-cybersecurity-threat-detection.git
 cd ai-cybersecurity-threat-detection
 Create a virtual environment:
 
-bash
-Copy code
+
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Configure:
 
-bash
-Copy code
 cp config.example.yaml config.yaml
-# Then edit config.yaml to match your environment
-Run the system:
 
-bash
-Copy code
+Run the system:
 python main.py
 🧪 Usage
 Run a Detection Scan
@@ -91,14 +83,13 @@ Open the Dashboard
 Visit:
 
 arduino
-Copy code
+
 http://localhost:8050
 <p align="center"> <img src="https://via.placeholder.com/650x300/22303c/ffffff?text=Live+Dashboard+Preview" width="650"> <br> <i>Figure 2: Real-Time Security Dashboard</i> </p>
 🤝 Contributing
 We welcome contributions from cybersecurity researchers, data scientists & developers.
 
-bash
-Copy code
+b
 git checkout -b feature/NewFeature
 git commit -m "Add new feature"
 git push origin feature/NewFeature
